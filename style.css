@@ -11,3 +11,18 @@ p{
 a{
     color:mediumvioletred;
 }
+ul a{
+    color : deeppink;
+}
+ul .mainMenu{
+    color:mediumseagreen;
+}
+ul.nestedMenu{
+    list-style-type: none;
+}
+ul>li.mainMenu:last-child>ul.nestedMenu{
+    list-style-type: square;
+}
+ul>li.mainMenu:last-child>ul.nestedMenu a{
+    text-decoration: none;
+}
