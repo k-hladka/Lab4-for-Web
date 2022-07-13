@@ -1,0 +1,16 @@
+li{
+    list-style-type: none;
+}
+ul>li{
+    background-color: mediumseagreen;
+    width: 30%;
+    border: 1px solid white;
+    color: white;
+    padding: 4px;
+}
+ul>li>ul, ul>li>ul li{
+    background-color: pink;
+    color: black;
+    padding: 4px 10px;
+    border:0;
+}
