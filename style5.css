@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    font-size: 18px;
+}
+header, aside, div, footer{
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+    background-color: darkgrey;
+    float:left;
+    width: 70%;
+    line-height: 50px;
+    border: gray 2px solid;
+}
+aside{
+    font-size: 1rem;
+    float: right;
+    width: 25%;
+}
+aside+aside, div{
+    margin-top: 20px;
+    line-height: normal;
+    background-color: gainsboro;
+}
+ul{
+    padding: 0;
+}
+div{
+    color: black;
+}
+h1{
+    font-size: 1.2rem;
+}
+footer{
+    margin:20px 0 0 0;
+    width: 100%;
+}
