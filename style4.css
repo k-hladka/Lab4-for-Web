@@ -1,0 +1,36 @@
+body{
+    background-image: url("img/1616539374_36-p-goluboe-nebo-fon-40.jpg");
+    background-repeat: no-repeat;
+}
+*{
+    box-sizing: border-box;
+    font-size: 18px;
+}
+div{
+    border-width: 3px;
+    border-color: blue yellow green darkred;
+    border-style: solid;
+    width: 35%;
+}
+header{
+    color: red;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+ol{
+    color: #8321ff;
+}
+footer{
+    color: #ff9432;
+    font-style: italic;
+}
+p{
+    color: #8321ff;
+    margin: 0;
+    font-size: 0.75rem;
+}
+img{
+    width: 300px;
+    margin-top: 20px;
+}
